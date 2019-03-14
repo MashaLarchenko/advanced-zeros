@@ -45,17 +45,7 @@ module.exports = function getZerosCount(number, base) {
     }
     return numbers;
   }
-
-  function max(arr) {
-    let max = 0;
-    for (i = 0; i < arr.length; i++) {
-      if (arr[i] > max) {
-        max = arr[i];
-      }
-    }
-    return max;
-  }
-
+  
   function min(arr) {
     let min = arr[0];
     for (i = 1; i < arr.length; i++) {
